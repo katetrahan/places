@@ -32,10 +32,32 @@ $(document).ready(function() {
       $(".timeOfYear").text(arizona.timeOfYear);
       $(".tips").text(arizona.tipsForTrip);
     } else if (selectedLocation === "montana") {
-      $("#showPlace h2").text("montana");
+      $("#showPlace h2").text("Montana");
       $(".landmark").text(montana.landmarkEpic);
       $(".timeOfYear").text(montana.timeOfYear);
       $(".tips").text(montana.tipsForTrip);
+    } else if (selectedLocation === "florida") {
+      $("#showPlace h2").text("Florida");
+      $(".landmark").text(florida.landmarkEpic);
+      $(".timeOfYear").text(florida.timeOfYear);
+      $(".tips").text(florida.tipsForTrip);
+    } else if (selectedLocation === "australia") {
+      $("#showPlace h2").text("Australia");
+      $(".landmark").text(australia.landmarkEpic);
+      $(".timeOfYear").text(australia.timeOfYear);
+      $(".tips").text(australia.tipsForTrip);
+    } else if (selectedLocation === "canada") {
+      $("#showPlace h2").text("Canada");
+      $(".landmark").text(canada.landmarkEpic);
+      $(".timeOfYear").text(canada.timeOfYear);
+      $(".tips").text(canada.tipsForTrip);
+    } else if (selectedLocation === "colorado") {
+      $("#showPlace h2").text("Colorado");
+      $(".landmark").text(colorado.landmarkEpic);
+      $(".timeOfYear").text(colorado.timeOfYear);
+      $(".tips").text(colorado.tipsForTrip);
+    } else {
+      console.log();
     }
 
 
