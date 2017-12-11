@@ -8,8 +8,40 @@
     <title>Kate's and Julia's Places</title>
   </head>
   <body>
-    <div class=jumbotron"">
-    <h1>Kate's and Julia's Favorite Places to Travel</h1>
-  </div>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Kate's and Julia's Favorite Places to Travel</h1>
+        <div class="row">
+          <div class="col-md-6">
+            <form id="placesForm">
+              <h2>Use the drop down to view incredible places we've visited:</h2>
+              <select class="form-control" id="placesDropDown">
+                <option value="arizona">Arizona</option>
+                <option value="montana">Montana</option>
+                <option value="florida">Florida</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="colorado">Colorado</option>
+              </select>
+              </br>
+              <button class="btn btn-danger">See More!</button>
+            </form>
+            <h2>About this place:</h2>
+            <ul id="specificPlace">
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <div id="showPlace">
+              <h2></h2> <!--clickable--> 
+
+              <p>Landmarks: <span class="landmark"></span></p>
+              <p>Time of Year: <span class="timeOfYear"></span></p>
+              <p>Tips: <span class="tips"></span></p>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
